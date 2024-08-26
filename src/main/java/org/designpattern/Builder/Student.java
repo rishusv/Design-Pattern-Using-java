@@ -28,13 +28,14 @@ public class Student {
     }
 
     public Student(Builder bldr){
-        if(bldr.age<0 || bldr.age >120){
-            throw new IllegalArgumentException("Age should be between 0 and 120");
-        }
         this.age=bldr.age;
         this.psp=bldr.psp;
         this.name=bldr.name;
         this.email=bldr.email;
         this.pno=bldr.pno;
+    }
+
+    public static Builder getBuilder(){
+        return new Builder();
     }
 }
