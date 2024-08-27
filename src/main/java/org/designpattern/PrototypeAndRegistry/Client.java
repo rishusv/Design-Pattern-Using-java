@@ -35,7 +35,5 @@ public class Client {
 
         System.out.println(xyz);
         System.out.println(abc);
-
-
     }
 }
