@@ -10,7 +10,7 @@ public class Flipkart {
 
     private Flipkart(){}
 
-    public static Flipkart getInstance() {
+    public static Flipkart getInstance() { // singleton
         if (instance == null) {
             instance = new Flipkart();
         }
