@@ -7,7 +7,7 @@ public class Client {
                         new StrawberryScoop(
                                 new ChocolateCone(
                                         new ChocoChips(
-                                                new OrangeCone()
+                                                new OrangeCone() //base
                                         )
                                 )
                         )
